@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+
+        // NaN
+        const name = 'Batman'
+        const age = 33
+
+        console.log(name * age)
+
+
+
+        // Module operator
+        if (4 % 2 === 0) {
+            console.log('Son múltiplos')
+        }
+
+
+
+        // Assignment
+        let actualAge = 33
+        // actualAge = actualAge + 10
+        actualAge += 10
+        console.log('El resultado es', actualAge)
+
+
+
+
+        // Backticks
+        const dog = 'el perro \'Popino\''
+        const occupation = 'influencer y buscador de perritas receptivas'
+        const sentence = `Mi perro se llama ${dog} y se dedica a ${occupation}`
+
+        console.log(sentence)
+
+
+
+
+
+        const text = 'En un lugar de la Mancha, de cuyo nombre no quiero acordarme...'
+        console.log('El caracter en el índice 3 es', text.charAt(3))
+        console.log('El caracter en el índice 3 es', text[3])
+
+
+        console.log('¿En qué índice del texto está la palabra \'lugar\'?', text.indexOf('lugar'))
+        console.log('¿En qué índice del texto está la palabra \'tiktok\'?', text.indexOf('tiktok'))
+        console.log('¿Contiene el texto la palabra \'lugar\'?', text.includes('lugar'))
+
+
+        // Substings methods
+        const piece1 = text.substring(3, 10)
+        const piece2 = text.substring(3)
+
+        console.log(piece1)
+        console.log(piece2)
+
+
+        const piece3 = text.substr(3, 10)
+        console.log(piece3)
+
+
+        const piece4 = text.slice(-10, -1)
+        console.log(piece4)
+
+
+
+        // Inmutability
+        let city = 'miami'
+        console.log(city)
+        city[0] = 'M'
+        console.log(city)
+
+        let miami = city.charAt(0).toUpperCase() + city.substring(1)
+        console.log(miami)
+
+
+
+    </script>
+</body>
+
+</html>
