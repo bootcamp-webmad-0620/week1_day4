@@ -1,6 +1,5 @@
 # week1_day4
 
-> Vídeo de la clase disponible [en este enlace](https://ironhack.zoom.us/rec/share/vNdJNaz-5H1IZIWV7GCFV-kBL6PEaaa82nUa-PJcmRnx7xlAAn98qYY0A3xDTTYh)
 
 ## Contenidos
 
