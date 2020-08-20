@@ -30,7 +30,7 @@ A nivel de nomenclatura, existen:
   ````
   
 A nivel de estructura, existen: 
-- **Function statement**: disponen de al palabra reservada `function`, de paréntesis para sus parámetros y de bloque:
+- **Function declaration**: disponen de al palabra reservada `function`, de paréntesis para sus parámetros y de bloque:
   ````javascript
   function getTotals(subtotal, tax){
     return subtotal + tax
